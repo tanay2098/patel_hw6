@@ -1,5 +1,6 @@
 const table_elem=document.createElement("table");
 table_elem.style.border="1px solid black";
+table_elem.style.textAlign='center';
 
 for(let i=1;i<=12;i++){
     const row_elem=document.createElement("tr");
